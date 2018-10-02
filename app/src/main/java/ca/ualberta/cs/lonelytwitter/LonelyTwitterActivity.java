@@ -1,3 +1,10 @@
+/**
+ * Lonely tweeter class runs the main application
+ * @author: Debra
+ * @since: 2018
+ *
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -25,6 +32,10 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+
+/**
+ * LonelyTwitterActivity class, to provide the UI of the application
+ */
 public class LonelyTwitterActivity extends Activity {
 
 	private static final String FILENAME = "file.sav";
@@ -73,12 +84,14 @@ public class LonelyTwitterActivity extends Activity {
 				saveInFile();
 
 				adapter.notifyDataSetChanged();
-
 			}
 		});
 	}
 
 	@Override
+	/**
+	 * Called when the app is started
+	 */
 	protected void onStart() {
 		// TODO Auto-generated method stub
 		super.onStart();
@@ -87,6 +100,11 @@ public class LonelyTwitterActivity extends Activity {
 				R.layout.list_item, tweetList);
 		oldTweetsList.setAdapter(adapter);
 	}
+
+	/**
+	 * Loads saved Tweets from file
+	 * @return Array<Tweets>
+	 */
 
 	private String[] loadFromFile() {
 		ArrayList<String> tweets = new ArrayList<String>();
@@ -114,7 +132,11 @@ public class LonelyTwitterActivity extends Activity {
 		}
 		return tweets.toArray(new String[tweets.size()]);
 	}
-	
+
+	/**
+	 * Save the list in a file
+	 * @throws FileNotFoundException
+	 */
 	private void saveInFile() {
 		try {
 

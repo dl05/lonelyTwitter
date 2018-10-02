@@ -1,6 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 
 /**
+ * Throws exception if tweet is too long
  * Created by lipton on 9/18/18.
  */
 

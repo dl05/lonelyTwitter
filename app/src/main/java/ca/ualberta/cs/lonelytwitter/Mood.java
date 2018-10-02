@@ -1,6 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 
 /**
+ * Class Mood sets date
  * Created by lipton on 9/18/18.
  */
 
@@ -20,6 +21,10 @@ public abstract class Mood {
 
     public abstract String getMood();
 
+    /**
+     * Return the date
+     * @return this.date
+     */
     public Date getDate() {return this.date;}
 
 

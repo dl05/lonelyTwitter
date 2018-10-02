@@ -1,6 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 
 /**
+ * Important Tweet Class extends Tweet
  * Created by lipton on 9/18/18.
  */
 

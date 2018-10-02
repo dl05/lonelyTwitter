@@ -1,6 +1,9 @@
 package ca.ualberta.cs.lonelytwitter;
 
 /**
+ * Tweet implements interface Tweet
+ * Sets Date and Message
+ * Checks comment is not too long
  * Created by lipton on 9/18/18.
  */
 

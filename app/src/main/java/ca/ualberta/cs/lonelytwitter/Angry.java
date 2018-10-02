@@ -3,6 +3,7 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 /**
+ * Class extends Mood
  * Created by lipton on 9/18/18.
  */
 

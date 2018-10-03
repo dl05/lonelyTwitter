@@ -1,10 +1,13 @@
-package ca.ualberta.cs.lonelytwitter;
-
 /**
  * Throws exception if tweet is too long
  * Created by lipton on 9/18/18.
  */
 
+package ca.ualberta.cs.lonelytwitter;
+
+/**
+ * Throw the exception if Tweet is too long
+ */
 public class TweetTooLongException extends Exception {
 
     //create constructor for the class

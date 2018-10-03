@@ -1,10 +1,14 @@
-package ca.ualberta.cs.lonelytwitter;
-
 /**
  * Sad Class extends Mood
  * Created by lipton on 9/18/18.
  */
 
+package ca.ualberta.cs.lonelytwitter;
+
+/**
+ * Sad creates a sad mood
+ * Gives it sad message
+ */
 public class Sad extends Mood {
     private String message;
 

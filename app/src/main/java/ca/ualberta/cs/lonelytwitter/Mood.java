@@ -1,12 +1,15 @@
-package ca.ualberta.cs.lonelytwitter;
-
 /**
- * Class Mood sets date
+ * Class Mood creates a mood
  * Created by lipton on 9/18/18.
  */
 
+package ca.ualberta.cs.lonelytwitter;
+
 import java.util.Date;
 
+/**
+ * Class Mood assigns a date
+ */
 public abstract class Mood {
     private Date date;
 

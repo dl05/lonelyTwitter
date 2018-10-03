@@ -1,12 +1,15 @@
+/**
+ * Angry extends Mood
+ * Created by lipton on 9/18/18.
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
 /**
- * Class extends Mood
- * Created by lipton on 9/18/18.
+ * Angry creates an angry mood with a message
  */
-
 public class Angry extends Mood {
     private String message;
 

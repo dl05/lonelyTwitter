@@ -21,6 +21,7 @@ public abstract class Tweet {
         this.date = new Date();
     }
 
+
     public Date getDate() {
         return this.date;
     }
